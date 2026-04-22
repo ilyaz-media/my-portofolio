@@ -5,7 +5,7 @@ import Typing from "../data/Typed";
 
 export default function Home() {
   return (
-    <section className="min-h-screen bg-white dark:bg-black/50 pt-20 dark:text-white">
+    <section className="min-h-[160vh] md:min-h-[170vh] lg:min-h-screen bg-white dark:bg-black/50 pt-20 dark:text-white">
       <div className="w-[90%] mx-[auto]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 h-[500px] relative">
         <div className="hidden absolute bg-gradient-to-br from-teal-50 to-green-100 dark:bg-gradient-to-br dark:from-teal-900 dark:to-blue-900 blur-3xl p-60  z-9 left-0 top-0 h-full"></div>
         <div className="h-[500px] flex flex-col gap-4 justify-center z-10">
