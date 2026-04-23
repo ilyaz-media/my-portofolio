@@ -63,7 +63,7 @@ export default function Navbar() {
 
       {/* mobile mode */}
       {isOpen && (
-        <div className=" z-10 fixed mt-[10%] md:hidden flex flex-col  w-full gap-2 px-10 py-5 shadow-md   bg-white dark:bg-gray-800 duration-500 dark:text-white">
+        <div className=" z-10 fixed mt-[10%] md:hidden flex flex-col  w-full gap-2 px-10 py-5 shadow-md z-30   bg-white dark:bg-gray-800 duration-500 dark:text-white">
           <a href="#home" className="hover:text-teal-500">
             Home
           </a>
