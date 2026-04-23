@@ -41,8 +41,8 @@ export default function Contact() {
       {/* form */}
       <div className="flex-1 grid grid-cols-1 md:grid-cols-2   rounded-3xl">
         <div className="bg-slate-800/50 p-10 flex flex-col gap-5 rounded-3xl ">
-          <h1 className="text-4xl font-bold text-teal-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, ipsum sapiente in vitae aut reprehenderit.</p>
+          <h1 className="text-4xl font-bold text-teal-500">Contact me </h1>
+          <p>A Front-End Developer focused on building modern, responsive, and user-friendly websites.</p>
           <div className="flex flex-col gap-2">
             <div className=" px-5 py-2 flex gap-4 items-center rounded-lg">
               <FaLinkedin size={40}/>
@@ -74,7 +74,7 @@ export default function Contact() {
               value={form.email}
               onChange={handleChange}
               placeholder="Masukkan email kamu"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-700 "
+              className="w-full p-3 border border-slate-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-700 "
               required
             />
           </div>
@@ -88,7 +88,7 @@ export default function Contact() {
               onChange={handleChange}
               placeholder="Tulis pesan kamu..."
               rows="4"
-              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-700"
+              className="w-full p-3  border border-slate-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-700"
               required></textarea>
           </div>
 

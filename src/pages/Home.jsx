@@ -5,7 +5,7 @@ import Typing from "../data/Typed";
 
 export default function Home() {
   return (
-    <section className="min-h-screen  bg-white dark:bg-black/50 pt-20 dark:text-white">
+    <section id="home" className=" scroll-mt-5 min-h-screen  bg-white dark:bg-black/50 pt-20 dark:text-white">
       <div className="w-[90%] mx-[auto] grid gap-5 lg:grid md:grid-cols-2 lg:grid-cols-3 gap-3 min-h-[500px] relative">
         <div className="hidden  absolute bg-gradient-to-br from-teal-50 to-green-100 dark:bg-gradient-to-br dark:from-teal-900 dark:to-blue-900 blur-3xl p-60  z-9 left-0 top-0 h-full"></div>
         <div className="mih-h-[500px] px-2 flex flex-col gap-4 justify-center z-10 ">
@@ -27,16 +27,16 @@ export default function Home() {
             interfaces.
           </p>
           <div className="mt-2 flex gap-2">
-            <button className="px-5 py-2 rounded-2xl bg-teal-500 text-white shadow-lg">
+            <a href="#contact" className="px-5 py-2 rounded-2xl bg-teal-500 text-white shadow-lg">
               Contact Me
-            </button>
-            <button className="px-5 py-2 rounded-2xl border border-teal-500 text-teal-500 shadow-lg">
+            </a>
+            <a href="#project" className="px-5 py-2 rounded-2xl border border-teal-500 text-teal-500 shadow-lg">
               View Project
-            </button>
+            </a>
           </div>
         </div>
         <div
-          className="bg-teal-200 dark:bg-teal-500 rounded-3xl relative"
+          className="bg-gradient-to-br from-green-400 to-teal-400 dark:bg-teal-500 rounded-3xl relative mx-2"
           data-aos="fade-up">
           <img src={img} alt="" className="h-full object-cover w-full" />
         </div>

@@ -6,8 +6,7 @@ export default function Footer() {
         <div>
           <h1 className="text-xl font-bold text-white">Ilyas Project</h1>
           <p className="mt-3 text-sm">
-            Front end Developer yang fokus membuat website modern, responsive,
-            dan user-friendly.
+         A Front-End Developer focused on building modern, responsive, and user-friendly websites.
           </p>
         </div>
 
@@ -57,7 +56,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="text-center text-sm text-gray-500 mt-10 border-t border-gray-700 pt-5">
-        © {new Date().getFullYear()} Ilyas Syamsudin. All rights reserved.
+        © {new Date().getFullYear()} Ilyas Samsudin. All rights reserved.
       </div>
     </footer>
   );

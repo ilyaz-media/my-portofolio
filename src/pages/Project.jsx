@@ -55,10 +55,10 @@ export default function Project() {
               <div className="flex flex-col justify-center bg-white dark:bg-slate-900 text-start p-10">
                 <h1 className="text-2xl font-semibold">{item.name}</h1>
                 <p>{item.ket}</p>
-                <div className="flex gap-3 py-10 items-center text-sm">
+                <div className="flex gap-3 py-10 flex-wrap items-center text-sm">
                   {item.tech.map((i) => {
                     return (
-                      <div className="px-2 rounded-lg py-1 bg-gray-400 text-white dark:bg-slate-800">
+                      <div className="px-2 rounded-lg py-1 bg-gray-400 text-white dark:bg-slate-800 flex ">
                         {i}
                       </div>
                     );

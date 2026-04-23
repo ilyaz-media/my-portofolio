@@ -34,11 +34,7 @@ export default function Navbar() {
               className=" transition-all duration-300 hover:text-teal-600">
               About
             </a>
-            <a
-              href="#skils"
-              className=" transition-all duration-300 hover:text-teal-600">
-              Skils
-            </a>
+        
             <a
               href="#project"
               className=" transition-all duration-300 hover:text-teal-600">
