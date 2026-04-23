@@ -3,7 +3,7 @@ import img from '../img/1.png'
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-white dark:bg-black/50 dark:text-gray-100">
+    <div className=" mt-20  bg-white dark:bg-black/50 dark:text-gray-100 ">
       <div className="w-[80%] mx-auto py-10 text-center">
         <h1 className="text-teal-500">ABOUT</h1>
         <h1 className="text-4xl font-bold">About Me</h1>
