@@ -8,12 +8,12 @@ export default function Home() {
     <section className="min-h-screen  bg-white dark:bg-black/50 pt-20 dark:text-white">
       <div className="w-[90%] mx-[auto] grid gap-5 lg:grid md:grid-cols-2 lg:grid-cols-3 gap-3 min-h-[500px] relative">
         <div className="hidden  absolute bg-gradient-to-br from-teal-50 to-green-100 dark:bg-gradient-to-br dark:from-teal-900 dark:to-blue-900 blur-3xl p-60  z-9 left-0 top-0 h-full"></div>
-        <div className="mih-h-[500px] flex flex-col gap-4 justify-center z-10">
+        <div className="mih-h-[500px] px-2 flex flex-col gap-4 justify-center z-10 ">
           <div className=" ">
             <h1 className="text-6xl  font-light text-gray-700 dark:text-gray-200">
               I am
             </h1>
-            <h1 className="text-7xl lg:text-8xl font-bold  dark:text-gray-100 ">
+            <h1 className="text-6xl lg:text-8xl font-bold  dark:text-gray-100 ">
               Ilyas samsudin
             </h1>
             <h1 className="text-3xl text-teal-500">
@@ -48,23 +48,23 @@ export default function Home() {
             My Skills
           </h1>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-2 mt-10">
-            <div className="p-5 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
+            <div className="p-2 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
               <FaHtml5 size={40} color="orange" />
               <h1>Html 5</h1>
             </div>
-            <div className="p-5 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
+            <div className="p-2 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
               <FaCss3 size={40} className="text-blue-500" />
               <h1>Css 3</h1>
             </div>
-            <div className="p-5 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
+            <div className="p-2 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
               <FaJs size={40} className="text-yellow-300" />
               <h1 className="text-sm">JavaScript</h1>
             </div>
-            <div className="p-5 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
+            <div className="p-2 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
               <FaReact size={40} className="text-teal-500" />
               <h1>React</h1>
             </div>
-            <div className="p-5 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
+            <div className="p-2 rounded-2xl bg-white dark:bg-slate-800 flex items-center gap-2">
               <SiTailwindcss size={40} className="text-teal-700" />
               <h1>Tailwind</h1>
             </div>

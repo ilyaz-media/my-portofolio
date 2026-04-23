@@ -31,7 +31,7 @@ export default function Project() {
   return (
     <section
       id="project"
-      className="py-20 text-gray-800 dark:bg-black/50  dark:text-white text-center">
+      className="py-20 px-2 text-gray-800 dark:bg-black/50  dark:text-white text-center">
       <h1 className="text-teal-500">PORTOFOLIO</h1>
       <h1 className="text-4xl mb-2 font-bold">Projects</h1>
       <p className="font-light">
