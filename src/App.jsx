@@ -25,7 +25,7 @@ export default function App() {
   
 
   return (
-    <div className="bg-white font-poppins dark:bg-gray-900 duration-500">
+    <div className=" font-poppins bg-gray-900 duration-500">
       <Navbar active={activeLink} />
       <Home />
       <About />

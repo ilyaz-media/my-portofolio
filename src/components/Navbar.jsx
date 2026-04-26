@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className="flex justify-between bg-white  px-10 py-3 items-center dark:bg-black/50 dark:text-white duration-500 fixed top-0 w-full z-20">
+      <div className="flex justify-between   px-10 py-3 items-center bg-black/50 text-white duration-500 fixed top-0 w-full z-20">
         <div className="font-bold text-teal-500 text-xl">Ilyas Project</div>
         <div className="flex gap-10">
           <div className=" hidden  md:flex gap-6 items-center">
@@ -40,19 +40,11 @@ export default function Navbar() {
               className=" transition-all duration-300 hover:text-teal-600">
               Project
             </a>
-            <a
-              href="#contact"
-              className=" transition-all duration-300 hover:text-teal-600">
-              Contact
-            </a>
+            
           </div>
+          <a href="#contact" className="bg-teal-600 py-2 px-5 rounded-lg"> Contact</a>
           <button onClick={() => setIsopen(!isOpen)} className="md:hidden ">
             {isOpen ? <FaTimes /> : <FaBars />}
-          </button>
-          <button
-            className=" dark:text-white-500 "
-            onClick={() => setDarkMode(!darkMode)}>
-            <ToggleActive />
           </button>
         </div>
       </div>
@@ -76,6 +68,7 @@ export default function Navbar() {
             Contact
           </a>
         </div>
+        
       )}
     </nav>
   );

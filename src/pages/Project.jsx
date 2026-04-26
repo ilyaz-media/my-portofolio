@@ -31,7 +31,7 @@ export default function Project() {
   return (
     <section
       id="project"
-      className="py-20 px-2 text-gray-800 dark:bg-black/50  dark:text-white text-center">
+      className="py-20 px-2 bg-black/50  text-white text-center">
       <h1 className="text-teal-500">PORTOFOLIO</h1>
       <h1 className="text-4xl mb-2 font-bold">Projects</h1>
       <p className="font-light">
@@ -43,22 +43,22 @@ export default function Project() {
         {projects.map((item) => {
           return (
             <div
-              className="  grid grid-cols-1 md:grid-cols-2 rounded-2xl overflow-hidden shadow-lg "
+              className="grid grid-cols-1 md:grid-cols-2 rounded-2xl overflow-hidden shadow-lg "
               data-aos="fade-up">
-              <div className="bg-slate-400 p-5 dark:bg-slate-800 ">
+              <div className=" p-5 bg-slate-800 ">
                 <img
                   src={item.img}
                   alt=""
                   className="w-full rounded-2xl shadow-md object-cover"
                 />
               </div>
-              <div className="flex flex-col justify-center bg-white dark:bg-slate-900 text-start p-10">
+              <div className="flex flex-col justify-center bg-slate-900 text-start p-10">
                 <h1 className="text-2xl font-semibold">{item.name}</h1>
                 <p>{item.ket}</p>
                 <div className="flex gap-3 py-10 flex-wrap items-center text-sm">
                   {item.tech.map((i) => {
                     return (
-                      <div className="px-2 rounded-lg py-1 bg-gray-400 text-white dark:bg-slate-800 flex ">
+                      <div className="px-2 rounded-lg py-1 bg-gray-800 text-white  flex ">
                         {i}
                       </div>
                     );
