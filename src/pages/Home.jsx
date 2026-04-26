@@ -39,7 +39,7 @@ export default function Home() {
           className="bg-gradient-to-br from-green-400 to-teal-400 dark:bg-teal-500 rounded-3xl relative mx-2"
           data-aos="fade-up">
           <img src={img} alt="" className="h-full object-cover w-full" />
-          <div className=" bg-gray-900 text-white shadow-lg p-5 absolute bottom-10 right-[-5%]  rounded-lg">
+          <div className=" bg-gray-900 text-white shadow-lg p-5 absolute bottom-[-5%] md:bottom-10 right-[-5%]  rounded-lg">
             <h1 className=" text-4xl font-bold text-teal-600">19+</h1>
             <p>Years old</p>
           </div>
