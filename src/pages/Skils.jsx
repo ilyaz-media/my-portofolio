@@ -3,7 +3,7 @@ import { SiTailwindcss } from "react-icons/si";
 
 export default function Skils() {
   return (
-    <section className="px-10 py-10 text-center text-white bg-slate-800">
+    <section className="px-10 py-10 mt-10 text-center text-white bg-slate-800">
       <h1 className="text-center font-bold text-3xl text-gray-400 mb-2">
         Myskills
       </h1>
