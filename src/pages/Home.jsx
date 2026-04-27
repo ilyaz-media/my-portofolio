@@ -1,9 +1,11 @@
 import { FaCode, FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
 import img from "../img/1.png";
 import { BiSend } from "react-icons/bi";
-import { SiNestjs, SiTailwindcss,SiTypescript,SiVitess,SiVitest } from "react-icons/si";
+import { SiNestjs, SiTailwindcss,SiTypescript,SiVite,SiVitess,SiVitest } from "react-icons/si";
 import Typing from "../data/Typed";
 import { RiNextjsFill } from "react-icons/ri";
+import { Send } from "lucide-react";
+import { VscVscode } from "react-icons/vsc";
 
 export default function Home() {
   return (
@@ -42,9 +44,13 @@ export default function Home() {
           data-aos="fade-up">
             <div className="bg-gradient-to-b from-teal-500 to-blue-500  h-[500px] rounded-full blur-3xl z-[9] ">
             </div>
+            <div className="bg-blue-600 rounded-lg p-2 absolute top-20 right-0">
+              <VscVscode className="text-5xl text-white"/>
+            </div>
+            <div className="bg-slate-900 p-2 absolute top-20 rounded-lg"><SiVitess className="text-5xl text-purple-600"/></div>
           <img src={img} alt="" className=" absolute h-full object-cover  w-full top-0 z-[10] " />
-          <div className="p-5 bg-gray-800 w-full absolute z-10 rounded-full flex justify-center gap-10 items-center text-teal-500">
-            <BiSend/> <span>Ilyassamsudin@gmail.com</span>
+          <div className="p-3 -translate-y-5 bg-gray-800 w-full absolute z-10 rounded-full flex justify-center gap-10 items-center text-teal-500">
+            <Send/> <span className="text-white">Ilyassamsudin@gmail.com</span>
           </div>
         </div>
         <div
