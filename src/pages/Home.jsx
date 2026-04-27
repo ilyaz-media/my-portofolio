@@ -1,12 +1,13 @@
-import { FaCode, FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { FaCode, FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
 import img from "../img/1.png";
-import { SiTailwindcss,SiVitess,SiVitest } from "react-icons/si";
+import { SiNestjs, SiTailwindcss,SiTypescript,SiVitess,SiVitest } from "react-icons/si";
 import Typing from "../data/Typed";
+import { RiNextjsFill } from "react-icons/ri";
 
 export default function Home() {
   return (
     <section id="home" className=" scroll-mt-5 min-h-screen  bg-black/50 pt-20 text-white">
-      <div className="w-[90%] mx-[auto] grid gap-5 lg:grid md:grid-cols-2 lg:grid-cols-3 gap-3 min-h-[500px] relative">
+      <div className="w-[90%] mx-[auto] grid gap-5 lg:grid md:grid-cols-2 lg:grid-cols-3 gap-10 min-h-[500px] relative">
         <div className="hidden  absolute bg-gradient-to-br from-teal-50 to-green-100 dark:bg-gradient-to-br dark:from-teal-900 dark:to-blue-900 blur-3xl p-60  z-9 left-0 top-0 h-full"></div>
         <div className="mih-h-[500px] px-2 flex flex-col gap-4 justify-center z-10 ">
           <div className=" ">
@@ -36,18 +37,11 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="bg-gradient-to-br from-green-400 to-teal-400 dark:bg-teal-500 rounded-3xl relative mx-2"
+          className=" rounded-3xl relative mx-2"
           data-aos="fade-up">
-          <img src={img} alt="" className="h-full object-cover w-full" />
-          <div className=" bg-gray-900 text-white shadow-lg p-5 absolute bottom-[-5%] md:bottom-10 right-[-5%]  rounded-lg">
-            <h1 className=" text-4xl font-bold text-teal-600">19+</h1>
-            <p>Years old</p>
-          </div>
-          <div className=" bg-gray-900 shadow-lg p-5 text-white absolute bottom-[-5%] left-[-5%]  rounded-lg">
-            <h1 className=" text-4xl font-bold text-teal-600">20+</h1>
-            <p>Projects created</p>
-          </div>
-         
+            <div className="bg-gradient-to-b from-teal-500 to-blue-500  h-[500px] rounded-full blur-3xl z-[9] ">
+            </div>
+          <img src={img} alt="" className=" absolute h-full object-cover  w-full top-0 z-[10] " />
         </div>
         <div
           className="p-5 md:p-10 bg-gradient-to-b from-slate-800 to-black rounded-3xl"
@@ -74,8 +68,16 @@ export default function Home() {
               <h1>React</h1>
             </div>
             <div className="p-2 rounded-2xl bg-slate-800 flex items-center gap-2">
+              <SiTypescript size={40} className="text-blue-500 bg-white rounded-lg" />
+              <h1>TypeScript</h1>
+            </div>
+            <div className="p-2 rounded-2xl bg-slate-800 flex items-center gap-2">
               <SiTailwindcss size={40} className="text-teal-700" />
               <h1>Tailwind</h1>
+            </div>
+            <div className="p-2 rounded-2xl bg-slate-800 flex items-center gap-2">
+              <RiNextjsFill size={40} className="text-black" />
+              <h1>Next.js</h1>
             </div>
           </div>
         </div>
