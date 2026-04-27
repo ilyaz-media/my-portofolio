@@ -1,5 +1,6 @@
 import { FaCode, FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
 import img from "../img/1.png";
+import { BiSend } from "react-icons/bi";
 import { SiNestjs, SiTailwindcss,SiTypescript,SiVitess,SiVitest } from "react-icons/si";
 import Typing from "../data/Typed";
 import { RiNextjsFill } from "react-icons/ri";
@@ -42,9 +43,12 @@ export default function Home() {
             <div className="bg-gradient-to-b from-teal-500 to-blue-500  h-[500px] rounded-full blur-3xl z-[9] ">
             </div>
           <img src={img} alt="" className=" absolute h-full object-cover  w-full top-0 z-[10] " />
+          <div className="p-5 bg-gray-800 w-full absolute z-10 rounded-full flex justify-center gap-10 items-center text-teal-500">
+            <BiSend/> <span>Ilyassamsudin@gmail.com</span>
+          </div>
         </div>
         <div
-          className="p-5 md:p-10 bg-gradient-to-b from-slate-800 to-black rounded-3xl"
+          className="p-5 mt-20 md:p-10 bg-gradient-to-b from-slate-800 to-black rounded-3xl"
           data-aos="fade-up"
           data-aos-delay="200">
           <h1 className="text-6xl font-bold text-gray-200">
