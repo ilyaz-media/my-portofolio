@@ -1,10 +1,12 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import img from '../img/1.png'
+import Floor from '../components/FLoor';
+import '../components/scene.css'
 
 export default function About() {
   return (
     <div id='about' className=" pt-10 bg-black/50 text-gray-100 ">
-      <div className="w-[80%] mx-auto py-10 text-center">
+      <div className="w-[80%] mx-auto pt-10 text-center">
         <h1 className="text-teal-500">ABOUT</h1>
         <h1 className="text-4xl font-bold">About Me</h1>
 
@@ -29,9 +31,10 @@ export default function About() {
               <FaGithub size={40}/>
             </div>
           </div>
-
-
         </div>
+      </div>
+      <div className='scene'>
+        <Floor/>
       </div>
     </div>
   );
