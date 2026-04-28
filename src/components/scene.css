@@ -3,8 +3,8 @@
 }
 .floor{
 background-image: 
-linear-gradient(gray 1px, transparent 1px),
-linear-gradient(90deg,gray 1px, transparent 1px)
+linear-gradient(teal 1px, transparent 1px),
+linear-gradient(90deg,teal 1px, transparent 1px)
 ;
 background-size: 40px 40px;
 width: 80%;

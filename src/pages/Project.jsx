@@ -15,7 +15,7 @@ export default function Project() {
     },
     {
       id: 2,
-      name: "MSME Business",
+      name: "Landing page",
       img: imgProject3,
       ket: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui enim illudelectus",
       tech: ["react", "tailwind.css", "framer-motion"],
