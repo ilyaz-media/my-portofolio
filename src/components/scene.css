@@ -7,7 +7,7 @@ linear-gradient(rgb(79, 164, 198) 1px, transparent 1px),
 linear-gradient(90deg,rgb(93, 161, 188) 1px, transparent 1px)
 ;
 background-size: 40px 40px;
-width: 100%;
+width: 90%;
 height: 300px ;
 margin: auto;
 transform: rotateX(60deg);
