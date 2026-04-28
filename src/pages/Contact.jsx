@@ -42,7 +42,7 @@ export default function Contact() {
       <div className="flex-1 grid grid-cols-1 md:grid-cols-2   rounded-3xl">
         <div className="bg-slate-800/50 p-10 flex flex-col gap-5 rounded-3xl ">
           <h1 className="text-4xl font-bold text-teal-500">Contact me </h1>
-          <p>A Front-End Developer focused on building modern, responsive, and user-friendly websites.</p>
+          <p className="text-xs md:text-sm">A Front-End Developer focused on building modern, responsive, and user-friendly websites.</p>
           <div className="flex flex-col gap-2">
             <div className=" px-5 py-2 flex gap-4 items-center rounded-lg">
               <FaLinkedin size={40}/>

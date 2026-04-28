@@ -4,10 +4,10 @@
 .floor{
 background-image: 
 linear-gradient(gray 1px, transparent 1px),
-linear-gradient(gray 1px, transparent 1px)
+linear-gradient(90deg,gray 1px, transparent 1px)
 ;
 background-size: 40px 40px;
-width: 90%;
+width: 80%;
 height: 300px ;
 margin: auto;
 transform: rotateX(60deg);

@@ -21,7 +21,7 @@ export default function About() {
                <h1 className=" text-3xl text-start font-bold">
             Who am I?
             </h1>
-            <p className="font-light mt-10">
+            <p className="font-light mt-10 text-xs md:text-sm">
               I’m Ilyas, a 19-year-old aspiring web development specialist from Indonesia. As a self-taught front-end developer, I focus on building modern, responsive interfaces using React and Tailwind CSS, turning designs from Figma into clean, interactive web experiences.
             </p>
             <div className='flex gap-3 mt-5 text-gray-300'>

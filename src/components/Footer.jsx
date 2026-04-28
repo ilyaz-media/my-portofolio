@@ -5,7 +5,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <h1 className="text-xl font-bold text-white">Ilyas Project</h1>
-          <p className="mt-3 text-sm">
+          <p className="mt-3 text-xs">
          A Front-End Developer focused on building modern, responsive, and user-friendly websites.
           </p>
         </div>

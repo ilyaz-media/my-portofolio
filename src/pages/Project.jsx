@@ -34,7 +34,7 @@ export default function Project() {
       className="py-20 px-2 bg-black/50  text-white text-center">
       <h1 className="text-teal-500">PORTOFOLIO</h1>
       <h1 className="text-4xl mb-2 font-bold">Projects</h1>
-      <p className="font-light">
+      <p className="font-light text-sm w-[80%] mx-[auto]">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui enim illum
         delectus?
       </p>
@@ -54,7 +54,7 @@ export default function Project() {
               </div>
               <div className="flex flex-col justify-center bg-slate-900 text-start p-10">
                 <h1 className="text-2xl font-semibold">{item.name}</h1>
-                <p>{item.ket}</p>
+                <p className="text-xs md:text-sm mt-2">{item.ket}</p>
                 <div className="flex gap-3 py-10 flex-wrap items-center text-sm">
                   {item.tech.map((i) => {
                     return (
