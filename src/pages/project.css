@@ -5,8 +5,8 @@
 .background::before{
     content: '';
     position: absolute;
-    top: 50%;
-    filter: blur(200px);
+    top: 20%;
+    filter: blur(100px);
     left: 20%;
     right: 20%;
     bottom: 20%;
