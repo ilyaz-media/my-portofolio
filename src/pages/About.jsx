@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div id='about' className="back  pt-10 bg-black/50 text-gray-100">
       <div className="w-[80%] mx-auto pt-10 text-center">
-        <h1 className="text-teal-500">ABOUT</h1>
+        <h1 className="text-blue-500">ABOUT</h1>
         <h1 className="text-4xl font-bold">About Me</h1>
 
         <div className="mt-10 flex gap-5 flex-col lg:flex-row">
@@ -18,7 +18,7 @@ export default function About() {
           </div>
 
           <div className="bg-slate-900 rounded-2xl p-5 md:p-20 text-start flex-1 shadow-lg relative" data-aos='fade-up'data-aos-delay='400'>
-             <div className='p-10  bg-teal-500 absolute rounded-3xl right-0 -translate-y-20 translate-x-5'> </div>
+             <div className='p-10  bg-blue-500 absolute rounded-3xl right-0 -translate-y-20 translate-x-5'> </div>
                <h1 className=" text-3xl text-start font-bold">
             Who am I?
             </h1>

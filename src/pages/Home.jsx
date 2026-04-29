@@ -35,7 +35,7 @@ export default function Home() {
             <h1 className="text-6xl lg:text-8xl font-bold  dark:text-gray-100 ">
               Ilyas samsudin
             </h1>
-            <h1 className="text-3xl text-teal-500">
+            <h1 className="text-3xl text-blue-500">
               <Typing />
             </h1>
           </div>
@@ -48,12 +48,12 @@ export default function Home() {
           <div className="mt-2 flex gap-2">
             <a
               href="#contact"
-              className="px-5 py-2 rounded-2xl bg-teal-600 text-white shadow-lg">
+              className="px-5 py-2 rounded-2xl bg-blue-600 text-white shadow-lg">
               Contact Me
             </a>
             <a
               href="#project"
-              className="px-5 py-2 rounded-2xl border border-teal-500 text-teal-500 shadow-lg">
+              className="px-5 py-2 rounded-2xl border border-blue-500 text-blue-500 shadow-lg">
               View Project
             </a>
           </div>

@@ -21,23 +21,23 @@ export default function Navbar() {
   return (
     <nav>
       <div className="flex justify-between    px-10 py-3 items-center bg-slate-900 text-white duration-500 fixed top-0 w-[100%]    z-20">
-        <div className="font-bold text-teal-500 text-xl">Ilyas Project</div>
+        <div className="font-bold text-blue-500 text-xl">Ilyas Project</div>
         <div className="flex gap-10">
           <div className=" hidden  md:flex gap-6 items-center">
             <a
               href="#home"
-              className=" transition-all duration-300 hover:text-teal-600">
+              className=" transition-all duration-300 hover:text-blue-600">
               Home
             </a>
             <a
               href="#about"
-              className=" transition-all duration-300 hover:text-teal-600">
+              className=" transition-all duration-300 hover:text-blue-600">
               About
             </a>
 
             <a
               href="#project"
-              className=" transition-all duration-300 hover:text-teal-600">
+              className=" transition-all duration-300 hover:text-blue-600">
               Project
             </a>
           </div>
@@ -50,7 +50,7 @@ export default function Navbar() {
         </div>
         <a
           href="#contact"
-          className=" hidden md:flex bg-teal-600 py-2 px-5 rounded-lg">
+          className=" hidden md:flex bg-blue-600 py-2 px-5 rounded-lg">
           {" "}
           Contact
         </a>

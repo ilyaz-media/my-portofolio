@@ -41,7 +41,7 @@ export default function Contact() {
       {/* form */}
       <div className="flex-1 grid grid-cols-1 md:grid-cols-2   rounded-3xl">
         <div className="bg-slate-800/50 p-10 flex flex-col gap-5 rounded-3xl ">
-          <h1 className="text-4xl font-bold text-teal-500">Contact me </h1>
+          <h1 className="text-4xl font-bold text-blue-500">Contact me </h1>
           <p className="text-xs md:text-sm">A Front-End Developer focused on building modern, responsive, and user-friendly websites.</p>
           <div className="flex flex-col gap-2">
             <div className=" px-5 py-2 flex gap-4 items-center rounded-lg">
@@ -63,7 +63,7 @@ export default function Contact() {
         <form
           onSubmit={handleSubmit}
           className=" p-5 rounded-r-2xl w-full   ">
-          <h2 className="text-2xl font-bold mb-6 text-start text-teal-500">Get In Touch</h2>
+          <h2 className="text-2xl font-bold mb-6 text-start text-blue-500">Get In Touch</h2>
 
           {/* Email */}
           <div className="mb-4">
@@ -95,7 +95,7 @@ export default function Contact() {
           {/* Button */}
           <button
             type="submit"
-            className="w-full bg-teal-500 text-white py-3 rounded-lg hover:bg-teal-600 transition duration-300">
+            className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition duration-300">
             Kirim Pesan
           </button>
         </form>

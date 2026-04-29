@@ -33,7 +33,7 @@ export default function Project() {
     <section
       id="project"
       className="background py-20 px-2 bg-black/50  text-white text-center">
-      <h1 className="text-teal-500">PORTOFOLIO</h1>
+      <h1 className="text-blue-500">PORTOFOLIO</h1>
       <h1 className="text-4xl mb-2 font-bold">Projects</h1>
       <p className="font-light text-sm w-[80%] mx-[auto]">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui enim illum
