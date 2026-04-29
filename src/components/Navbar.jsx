@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className="flex justify-between rounded-3xl   px-10 py-3 items-center bg-gradient-to-b from-slate-900 to-black/50 text-white duration-500 fixed top-0 w-[100%]    z-20">
+      <div className="flex justify-between    px-10 py-3 items-center bg-slate-900 text-white duration-500 fixed top-0 w-[100%]    z-20">
         <div className="font-bold text-teal-500 text-xl">Ilyas Project</div>
         <div className="flex gap-10">
           <div className=" hidden  md:flex gap-6 items-center">
@@ -54,7 +54,7 @@ export default function Navbar() {
 
       {/* mobile mode */}
       {isOpen && (
-        <div className=" z-10 fixed mt-[15%] md:hidden flex flex-col  w-full gap-2 px-10 py-5 shadow-md z-30 bg-gray-800 duration-500 text-white">
+        <div className=" z-10 fixed mt-[10%] md:hidden flex flex-col  w-full gap-2 px-10 py-5 shadow-md z-30 bg-gray-900 duration-500 text-white">
           <a href="#home" className="hover:text-teal-500">
             Home
           </a>
