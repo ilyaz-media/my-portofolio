@@ -34,22 +34,26 @@ export default function Navbar() {
               className=" transition-all duration-300 hover:text-teal-600">
               About
             </a>
-        
+
             <a
               href="#project"
               className=" transition-all duration-300 hover:text-teal-600">
               Project
             </a>
-            
           </div>
-         
+
           <div className="flex gap-3">
-          <button onClick={() => setIsopen(!isOpen)} className="md:hidden ">
-            {isOpen ? <FaTimes /> : <FaBars />}
-          </button>
+            <button onClick={() => setIsopen(!isOpen)} className="md:hidden ">
+              {isOpen ? <FaTimes /> : <FaBars />}
+            </button>
           </div>
         </div>
-         <a href="#contact" className=" hidden md:flex bg-teal-600 py-2 px-5 rounded-lg"> Contact</a>
+        <a
+          href="#contact"
+          className=" hidden md:flex bg-teal-600 py-2 px-5 rounded-lg">
+          {" "}
+          Contact
+        </a>
       </div>
 
       {/* mobile mode */}
@@ -71,7 +75,6 @@ export default function Navbar() {
             Contact
           </a>
         </div>
-        
       )}
     </nav>
   );

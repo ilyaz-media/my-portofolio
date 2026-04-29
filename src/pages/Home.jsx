@@ -60,34 +60,21 @@ export default function Home() {
         </div>
 
         {/* center */}
-        <div className="boxFoto h-full rounded-3xl  ">
+        <div className="boxFoto h-full rounded-3xl   ">
           <img src={img} alt="" className="h-full w-full object-cover" />
           {/* vs-code */}
           <div className="bg-slate-900 shadow-lg rounded-lg p-2 absolute bottom-20 right-[2%]">
-            <VscVscode className="text-5xl text-blue-500" />
+            <VscVscode className="text-3xl md:text-5xl text-blue-500" />
           </div>
           {/* vite */}
           <div className="bg-slate-900 shadow-lg p-2 absolute bottom-20 left-[2%] rounded-lg ">
-            <SiVitess className="text-5xl text-purple-600" />
+            <SiVitess className="text-3xl  md:text-5xl text-purple-600" />
           </div>
           {/* email */}
           <div className="p-3 -translate-y-5 bg-gray-800 w-full absolute bottom-[-10%] z-10 rounded-full flex justify-center gap-10 items-center text-teal-500">
             <Send /> <span className="text-white">Ilyassamsudin@gmail.com</span>
           </div>
         </div>
-
-        {/* <div
-          className=" rounded-3xl relative mx-2"
-          data-aos="fade-up">
-            <div className="bg-gradient-to-b from-teal-500 to-blue-500  h-[500px] rounded-full blur-3xl z-[9] ">
-            </div>
-            <div className="bg-slate-900 shadow-lg rounded-lg p-2 absolute bottom-20 right-[-3%]">
-              <VscVscode className="text-5xl text-blue-500"/>
-            </div>
-           
-          <img src={img} alt="" className=" absolute h-full object-cover  w-full top-0 z-[10] left-[-1%]" />
-          
-        </div> */}
 
         {/* right */}
 
