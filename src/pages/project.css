@@ -1,0 +1,16 @@
+.background{
+    position: relative;
+    z-index: 1;
+}
+.background::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    filter: blur(200px);
+    left: 20%;
+    right: 20%;
+    bottom: 20%;
+   z-index: -1;
+    background-color: rgb(6, 126, 163);
+
+}

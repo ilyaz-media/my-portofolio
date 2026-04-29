@@ -3,6 +3,7 @@ import CardProject from "../components/CardProject";
 import imgProject1 from "../img/project/1.png";
 import imgProject2 from "../img/project/2.png";
 import imgProject3 from "../img/project/4.png";
+import './project.css'
 
 export default function Project() {
   const projects = [
@@ -31,7 +32,7 @@ export default function Project() {
   return (
     <section
       id="project"
-      className="py-20 px-2 bg-black/50  text-white text-center">
+      className="background py-20 px-2 bg-black/50  text-white text-center">
       <h1 className="text-teal-500">PORTOFOLIO</h1>
       <h1 className="text-4xl mb-2 font-bold">Projects</h1>
       <p className="font-light text-sm w-[80%] mx-[auto]">
@@ -39,20 +40,20 @@ export default function Project() {
         delectus?
       </p>
 
-      <div className="grid grid-cols-1 gap-10 mt-10  w-[80%] m-[auto] ">
+      <div className="grid grid-cols-1 gap-5 mt-10  w-[80%] m-[auto] ">
         {projects.map((item) => {
           return (
             <div
               className="grid grid-cols-1 md:grid-cols-2 rounded-2xl overflow-hidden shadow-lg "
               data-aos="fade-up">
-              <div className=" p-5 bg-slate-800 ">
+              <div className=" p-5 bg-black/75 ">
                 <img
                   src={item.img}
                   alt=""
-                  className="w-full rounded-2xl shadow-md object-cover"
+                  className="w-full rounded-2xl shadow-md object-contain h-full"
                 />
               </div>
-              <div className="flex flex-col justify-center bg-slate-900 text-start p-5">
+              <div className="flex flex-col justify-center bg-black/50 text-start p-5">
                 <h1 className="text-2xl font-semibold">{item.name}</h1>
                 <p className="text-xs md:text-sm mt-2">{item.ket}</p>
                 <div className="flex gap-3 py-5 flex-wrap items-center text-sm">

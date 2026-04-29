@@ -26,12 +26,12 @@ export default function Home() {
   return (
     <section
       id="home"
-      className=" scroll-mt-5 min-h-screen  bg-black/50 pt-20 text-white">
+      className=" scroll-mt-5 min-h-screen bg-black/50 pt-20 text-white">
       <div className="w-[90%] mx-[auto] grid gap-5 lg:grid md:grid-cols-2 lg:grid-cols-3 gap-10 min-h-[500px] relative">
         {/* left */}
         <div className="mih-h-[500px] px-2 flex flex-col gap-4 justify-center z-10 ">
           <div className=" ">
-            <h1 className="text-6xl  font-light text-gray-200">I am</h1>
+            <h1 className="text-6xl  font-light dark:text-gray-200">I am</h1>
             <h1 className="text-6xl lg:text-8xl font-bold  dark:text-gray-100 ">
               Ilyas samsudin
             </h1>
@@ -63,15 +63,15 @@ export default function Home() {
         <div className="boxFoto h-full rounded-3xl  ">
           <img src={img} alt="" className="h-full w-full object-cover" />
           {/* vs-code */}
-          <div className="bg-slate-900 shadow-lg rounded-lg p-2 absolute bottom-20 right-[-3%]">
+          <div className="bg-slate-900 shadow-lg rounded-lg p-2 absolute bottom-20 right-[2%]">
             <VscVscode className="text-5xl text-blue-500" />
           </div>
           {/* vite */}
-          <div className="bg-slate-900 shadow-lg p-2 absolute bottom-20 left-[-3%] rounded-lg ">
+          <div className="bg-slate-900 shadow-lg p-2 absolute bottom-20 left-[2%] rounded-lg ">
             <SiVitess className="text-5xl text-purple-600" />
           </div>
           {/* email */}
-          <div className="p-3 -translate-y-5 bg-gray-800 w-full absolute bottom-[-5%] z-10 rounded-full flex justify-center gap-10 items-center text-teal-500">
+          <div className="p-3 -translate-y-5 bg-gray-800 w-full absolute bottom-[-10%] z-10 rounded-full flex justify-center gap-10 items-center text-teal-500">
             <Send /> <span className="text-white">Ilyassamsudin@gmail.com</span>
           </div>
         </div>
