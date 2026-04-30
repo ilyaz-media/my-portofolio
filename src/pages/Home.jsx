@@ -1,9 +1,13 @@
 import {
   FaCode,
   FaCss3,
+  FaGit,
+  FaGitAlt,
+  FaGithub,
   FaHtml5,
   FaJs,
   FaNodeJs,
+  FaNpm,
   FaReact,
 } from "react-icons/fa";
 import img from "../img/1.png";
@@ -21,6 +25,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { Send } from "lucide-react";
 import { VscVscode } from "react-icons/vsc";
 import "./home.css";
+import { CgVercel } from "react-icons/cg";
 
 export default function Home() {
   return (
@@ -63,13 +68,16 @@ export default function Home() {
         <div className="boxFoto h-full rounded-l-3xl   ">
           <img src={img} alt="" className="h-full w-full object-cover" />
           {/* vs-code */}
-          <div className="bg-slate-900 shadow-lg rounded-lg p-2 absolute bottom-[20%] md:bottom-[30%] right-[5%]">
+          <div className="bg-slate-900 shadow-lg rounded-lg p-2 absolute bottom-[30%]  right-[5%]">
             <VscVscode className="text-3xl  text-blue-500" />
           </div>
+       
+        
           {/* vite */}
-          <div className="bg-slate-900 shadow-lg p-2 absolute bottom-[20%] left-[5%] md:bottom-[30%] rounded-lg ">
+          <div className="bg-slate-900 shadow-lg p-2 absolute bottom-[30%] left-[5%]  rounded-lg ">
             <SiVitess className="text-3xl    text-purple-600" />
           </div>
+        
           {/* email */}
           <div className="p-3 -translate-y-5 bg-gray-800 w-full absolute bottom-[-10%] z-10 rounded-full flex justify-center gap-10 items-center text-blue-500">
             <Send /> <span className="text-white">Ilyassamsudin@gmail.com</span>
