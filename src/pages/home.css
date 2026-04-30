@@ -9,14 +9,14 @@
     /* background-color: rgb(2, 165, 165); */
     background-color: rgb(6, 126, 163);
 
-    border-radius: 10%;
-    filter: blur(0px);
+    border-radius: 50%;
+    filter: blur(20px);
     /* width: 400px; */
     inset: 0;
     /* height: 400px; */
-    top:10px;
-    left: 10px;
-    right: 10px;
+    top:40%;
+    left: 20%;
+    right: 20%;
     z-index: -1;
 
 }

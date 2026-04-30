@@ -60,14 +60,14 @@ export default function Home() {
         </div>
 
         {/* center */}
-        <div className="boxFoto h-full rounded-3xl   ">
+        <div className="boxFoto h-full rounded-l-3xl   ">
           <img src={img} alt="" className="h-full w-full object-cover" />
           {/* vs-code */}
-          <div className="bg-slate-900 shadow-lg rounded-lg p-2 absolute bottom-20 right-[5%]">
+          <div className="bg-slate-900 shadow-lg rounded-lg p-2 absolute bottom-10 right-[5%]">
             <VscVscode className="text-3xl text-blue-500" />
           </div>
           {/* vite */}
-          <div className="bg-slate-900 shadow-lg p-2 absolute bottom-20 left-[5%] rounded-lg ">
+          <div className="bg-slate-900 shadow-lg p-2 absolute bottom-10 left-[5%] rounded-lg ">
             <SiVitess className="text-3xl   text-purple-600" />
           </div>
           {/* email */}
