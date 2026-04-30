@@ -9,8 +9,8 @@
     /* background-color: rgb(2, 165, 165); */
     background-color: rgb(6, 126, 163);
 
-    border-radius: 50%;
-    filter: blur(50px);
+    border-radius: 10%;
+    filter: blur(0px);
     /* width: 400px; */
     inset: 0;
     /* height: 400px; */
