@@ -66,15 +66,26 @@ export default function Home() {
         </div>
 
         {/* right */}
-        <div className="boxFoto h-[280px] lg:h-[400px] rounded-l-3xl relative  ">
-          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="absolute z-[-1]  top-[-10%]  lg:right-[10%]  lg:left-[10%] ">
-  <path fill="#0ea5e9" d="M41,-63.9C54.1,-55.4,66.2,-45.6,70.4,-33.1C74.7,-20.6,70.9,-5.5,69.4,10.5C67.8,26.4,68.5,43.1,61.2,54.9C53.9,66.7,38.8,73.5,23.9,74.9C9.1,76.3,-5.5,72.2,-15.7,64.3C-25.9,56.4,-31.9,44.6,-43.8,35.4C-55.7,26.2,-73.5,19.7,-79,8.8C-84.5,-2,-77.7,-17.2,-68.2,-28.4C-58.8,-39.5,-46.7,-46.7,-34.9,-55.7C-23.1,-64.7,-11.5,-75.5,1.2,-77.4C14,-79.3,28,-72.3,41,-63.9Z" transform="translate(100 100)" />
-</svg>
+        <div className="boxFoto h-[283px] lg:h-[400px] rounded-l-3xl relative  ">
+          <svg
+            viewBox="0 0 200 200"
+            xmlns="http://www.w3.org/2000/svg"
+            className="absolute z-[-1]  top-[-10%]  lg:right-[10%]  lg:left-[10%] ">
+            <path
+              fill="#0ea5e9"
+              d="M41,-63.9C54.1,-55.4,66.2,-45.6,70.4,-33.1C74.7,-20.6,70.9,-5.5,69.4,10.5C67.8,26.4,68.5,43.1,61.2,54.9C53.9,66.7,38.8,73.5,23.9,74.9C9.1,76.3,-5.5,72.2,-15.7,64.3C-25.9,56.4,-31.9,44.6,-43.8,35.4C-55.7,26.2,-73.5,19.7,-79,8.8C-84.5,-2,-77.7,-17.2,-68.2,-28.4C-58.8,-39.5,-46.7,-46.7,-34.9,-55.7C-23.1,-64.7,-11.5,-75.5,1.2,-77.4C14,-79.3,28,-72.3,41,-63.9Z"
+              transform="translate(100 100)"
+            />
+          </svg>
           <img src={img} alt="" className="h-full w-full object-contain" />
-        <VscVscode className="absolute text-blue-500 left-[8%] lg:left-[22%] bottom-[20%] bg-slate-950 p-2 rounded-lg shadow-lg " size={40}/>
-        <SiVitess className="absolute text-purple-500 right-[12%] lg:right-[20%] bottom-[20%] bg-slate-950 p-2 rounded-lg shadow-lg " size={40}/>
-        
-        
+          <VscVscode
+            className="absolute text-blue-500 left-[10%] lg:left-[22%] bottom-[20%] bg-slate-950 p-2 rounded-lg shadow-lg "
+            size={40}
+          />
+          <SiVitess
+            className="absolute text-purple-500 right-[12%] lg:right-[20%] bottom-[20%] bg-slate-950 p-2 rounded-lg shadow-lg "
+            size={40}
+          />
         </div>
 
         {/* right */}
