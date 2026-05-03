@@ -20,8 +20,8 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className="flex justify-between    px-10 py-3 items-center bg-black/30 text-white duration-500 fixed top-0 w-[100%]    z-20">
-        <div className="font-bold text-blue-500 text-xl">  <span className="text-white">Ilyas </span>Project</div>
+      <div className="flex justify-between    px-10 py-3 items-center bg-zinc-950 text-white duration-500 fixed top-0 w-[100%]    z-20">
+        <div className="font-bold text-sky-500 text-xl">  <span className="text-white">Ilyas </span>Project</div>
         <div className="flex gap-10">
           <div className=" hidden  md:flex gap-6 items-center">
             <a
@@ -50,7 +50,7 @@ export default function Navbar() {
         </div>
         <a
           href="#contact"
-          className=" hidden md:flex bg-blue-500 py-2 px-5 rounded-3xl">
+          className=" hidden md:flex bg-sky-500 py-2 px-5 rounded-3xl">
           {" "}
           Contact
         </a>

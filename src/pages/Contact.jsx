@@ -34,7 +34,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen p-3 lg:p-10 flex flex-col lg:flex-row  bg-gray-900 text-white  items-center justify-center pt-20 ">
+      className="min-h-screen p-3 lg:p-10 flex flex-col lg:flex-row  bg-zinc-950 text-white  items-center justify-center pt-20 ">
     
       
 
@@ -74,7 +74,7 @@ export default function Contact() {
               value={form.email}
               onChange={handleChange}
               placeholder="Masukkan email kamu"
-              className="w-full p-3 border border-slate-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-700 "
+              className="w-full p-3 border border-slate-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 bg-zinc-800 "
               required
             />
           </div>
@@ -88,7 +88,7 @@ export default function Contact() {
               onChange={handleChange}
               placeholder="Tulis pesan kamu..."
               rows="4"
-              className="w-full p-3  border border-slate-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-700"
+              className="w-full p-3  border border-slate-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 bg-zinc-800"
               required></textarea>
           </div>
 

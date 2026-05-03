@@ -10,13 +10,14 @@
     background-color: rgb(6, 126, 163);
 
     border-radius: 50%;
-    filter: blur(20px);
+    filter: blur(50px);
     /* width: 400px; */
     inset: 0;
     /* height: 400px; */
-    top:40%;
+    top:30%;
     left: 20%;
-    right: 20%;
+    right: 15%;
     z-index: -1;
+    bottom:10%;
 
 }

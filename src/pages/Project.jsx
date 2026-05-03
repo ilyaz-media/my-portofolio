@@ -32,7 +32,7 @@ export default function Project() {
   return (
     <section
       id="project"
-      className="background py-20 px-2 bg-black/50  text-white text-center">
+      className="background py-20 px-2 bg-zinc-950  text-white text-center">
       <h1 className="text-blue-500">PORTOFOLIO</h1>
       <h1 className="text-4xl mb-2 font-bold">Projects</h1>
       <p className="font-light text-sm w-[80%] mx-[auto]">
@@ -40,20 +40,20 @@ export default function Project() {
         delectus?
       </p>
 
-      <div className="grid grid-cols-1 gap-5 mt-10  w-[80%] m-[auto] ">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10  w-[80%] m-[auto] ">
         {projects.map((item) => {
           return (
             <div
-              className="grid grid-cols-1 md:grid-cols-2 rounded-2xl overflow-hidden shadow-lg "
-              data-aos="fade-up">
-              <div className=" p-5 bg-black/75 ">
+              className=" rounded-2xl overflow-hidden shadow-lg "
+              >
+              <div className="  bg-zinc-800 p-2  ">
                 <img
                   src={item.img}
                   alt=""
-                  className="w-full rounded-2xl shadow-md object-contain h-full"
+                  className="w-full rounded-xl shadow-lg object-contain "
                 />
               </div>
-              <div className="flex flex-col justify-center bg-black/50 text-start p-5">
+              <div className="flex flex-col justify-center bg-zinc-900 text-start p-5">
                 <h1 className="text-2xl font-semibold">{item.name}</h1>
                 <p className="text-xs md:text-sm mt-2">{item.ket}</p>
                 <div className="flex gap-3 py-5 flex-wrap items-center text-sm">
