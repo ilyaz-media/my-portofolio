@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className=" scroll-mt-5 min-h-screen bg-zinc-950 pt-20 text-white">
+      className=" scroll-mt-5 bg-zinc-950 pt-20 text-white">
       <div className="w-[90%] mx-[auto] grid gap-5 lg:grid md:grid-cols-2 lg:grid-cols-2 gap-10 min-h-[500px] relative">
         {/* left */}
         <div className="mih-h-[500px] px-2 flex flex-col gap-4 justify-center z-10 ">
@@ -41,8 +41,8 @@ export default function Home() {
               Ilyas samsudin
             </h1>
             <h1 className="text-3xl text-sky-500 mt-3">
-              {/* <Typing /> */}
-              Front End Developer
+              <Typing />
+              {/* Front End Developer */}
             </h1>
           </div>
           <p className="text-sm lg:text-base">
